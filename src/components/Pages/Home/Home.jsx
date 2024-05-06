@@ -41,6 +41,9 @@ export const Home = () => {
   return (
     <>
       <Header isVisible={isVisible}>
+      <p className='Cancel'>
+          <span class="arrow">&#x2190;</span> Dale Click En La X Para Quitar Portada
+      </p>
         <RxCross1 id='exit'onClick={toggleVisibility} />
         <ImgPerfil />
         <Name name='Edison Alzate' />

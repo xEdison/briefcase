@@ -9,6 +9,9 @@
 #exit{
     display: none;
 }
+.Cancel{
+    display: none;
+}
 
 @media(max-width:768px){
     #menu{
@@ -20,4 +23,13 @@
         left: 1rem;
         top: 1rem;
     }
+    .Cancel{
+        display: inline;
+    }
+    .arrow {
+        display: inline;
+        margin-right: 5px; /* Espacio entre la flecha y el texto */
+        font-size: 20px; /* Tamaño de la flecha */
+      }
+      
 }
